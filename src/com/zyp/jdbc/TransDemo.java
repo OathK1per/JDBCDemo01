@@ -4,6 +4,7 @@ import java.sql.*;
 
 /**
  * 测试事务的执行
+ * 设置自动提交为false，在提交时使用commit()，在报错时使用rollback()
  */
 public class TransDemo {
 
